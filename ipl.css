@@ -1,0 +1,30 @@
+body{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table,th,td{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid rgba(89, 85, 85, 0.818);
+    border-collapse: collapse;
+    text-align: center;
+}
+.team{
+    width: 500px;
+    text-align: left;
+}
+.q{
+    background-color: rgba(0, 128, 0, 0.915);
+    color: aliceblue;
+    
+}
+img{
+    height: 40px;
+    display: inline;
+}
+span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
